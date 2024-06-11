@@ -1,0 +1,75 @@
+/* Todo.css */
+
+*{
+  background-color:darkkhaki;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .center_div {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #c82333;
+  }
+  
+  .center_div h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .center_div input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .center_div button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .center_div button:hover {
+    background-color: #0056b3;
+  }
+  
+  .center_div ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-item .delete {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #dc3545;
+    font-size: 1.2rem;
+  }
+  
+  .todo-item .delete:hover {
+    color: #c82333;
+  }
+  
+  .todo-item li {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
